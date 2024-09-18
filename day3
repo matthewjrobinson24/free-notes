@@ -1,0 +1,12 @@
+#!/bin/bash
+
+contents=$(cat simple2.txt)
+if [[ $contents == "tacos" ]]; then
+  echo only on tuesdays
+elif [[ $contents == "costco" ]]; then
+  echo is cool but expensive
+elif [[ $contents == "troopstore" ]]; then
+  echo always crowded
+else
+  echo no tax at commisary
+fi
