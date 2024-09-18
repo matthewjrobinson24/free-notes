@@ -10,3 +10,18 @@ elif [[ $contents == "troopstore" ]]; then
 else
   echo no tax at commisary
 fi
+
+cat fakepasswd.txt | sort -t: -k3 -n
+
+
+
+
+
+
+
+
+
+
+
+
+
